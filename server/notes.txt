@@ -1,0 +1,17 @@
+Material-UI is a number of pre-made components ready to go for your next website. Things like buttons, sizing, color all are ready.
+
+Built on material design blog by Google.
+
+import Button from '@material-ui/core/Button'
+<Button 
+    onClick = {() => alert('hello')} 
+    href = '#' 
+    variant="contained" 
+    color = "primary"
+    size = "large"
+    style = {{
+        fontSize: 24
+    }}
+    disabled>
+    Hello World
+</Button>
